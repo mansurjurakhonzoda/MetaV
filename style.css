@@ -33,3 +33,134 @@ body {
   color: #fff;
   text-decoration: none;
 }
+.first_section {
+  width: 1043px;
+  height: 423px;
+  margin: auto;
+  margin-top: 138px;
+  margin-bottom: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.explore {
+  width: 544px;
+  height: 423px;
+}
+h1 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 68px;
+  color: #fff;
+}
+h1 b {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 72px;
+  background: linear-gradient(to right, #f86cf8, #64cef5);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.explore p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.knopki {
+  width: 360px;
+  height: 54px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.knopki button:nth-child(1) {
+  width: 160px;
+  height: 54px;
+  border-radius: 5px;
+  padding: 12px 14px;
+  gap: 10px;
+  background: linear-gradient(to right, #d10ed1, #10a3da);
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+.knopki button:nth-child(2) {
+  width: 180px;
+  height: 54px;
+  padding: 12px 14px;
+  gap: 10px;
+  background-color: inherit;
+  border: 1px solid;
+  border-image: linear-gradient(90deg, #d10ed1, #10a3da) 1;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.info {
+  width: 362px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.k29 {
+  width: 100px;
+  height: 65px;
+}
+.k29 p:nth-child(1) {
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+.k29 p:nth-child(2) {
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.k18 {
+  width: 70px;
+  height: 65px;
+}
+.k18 p:nth-child(1) {
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+.k18 p:nth-child(2) {
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.k25 {
+  width: 75px;
+  height: 65px;
+}
+.k25 p:nth-child(1) {
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+.k25 p:nth-child(2) {
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.image {
+  width: 565px;
+  height: 423px;
+  position: relative;
+}
+.image img {
+  width: 565px;
+  position: absolute;
+  top: -40px;
+}
