@@ -164,3 +164,19 @@ h1 b {
   position: absolute;
   top: -40px;
 }
+.second_section {
+  width: 1043px;
+  height: 439px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.images {
+  width: 472px;
+  height: 439px;
+  position: relative;
+}
+.images img {
+  padding: 10px;
+}
